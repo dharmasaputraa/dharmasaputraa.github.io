@@ -112,7 +112,6 @@ inputDecimal = (dot) => {
 const pecentage = document.querySelector(".pecentage");
 
 pecentage.addEventListener("click", (event) => {
-  console.log(event.target.value);
   let result = currentNumber / 100;
   updateScreen(result);
   currentNumber = result;
